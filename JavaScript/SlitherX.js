@@ -14,7 +14,7 @@ let foodY = 15;
 window.onload = function() {
 
     let canvas = document.getElementById("canvas");
-	let scenes = canvas.getContext("2d");
+	var scenes = canvas.getContext("2d");
     document.addEventListener("keydown", function keyPush(event) {
 
         switch(event.keyCode) {
